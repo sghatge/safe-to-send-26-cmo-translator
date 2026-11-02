@@ -1,0 +1,12 @@
+{
+  "as_of": "Black Friday readiness, synthetic team",
+  "controls": {
+    "approval_on_send": true, "presend_qa": true, "consent_filter_check": true, "pii_masking": true,
+    "sql_write_block": true, "protected_workflows": true, "tamper_evident_log": false, "policy_tests_in_ci": false
+  },
+  "decisions": [
+    "Who may approve sends above 100,000 recipients in each market?",
+    "Do we accept up to one week without a tamper-proof record of the assistant's actions?",
+    "Which two outcomes would make you pause the assistant entirely?"
+  ]
+}
